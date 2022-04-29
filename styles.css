@@ -1,0 +1,97 @@
+:root{
+    --primary:#0e0806;
+    --secondary:#FFFFFF;
+    --primaryb:#ff4e24;
+    --title:#826660;
+    --secondaryb:#bcaca4;
+    --green: #a3eb9d;
+    --sm:13px;
+}
+body{
+    margin: 0;
+    color: var(--primary);
+    display: grid;
+    place-items: center;
+
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color:var(--title);
+    font-size: var(--sm);
+}
+main{
+    width: 100%;
+    outline: 2px var(--secondary) solid;
+   
+}
+.header{
+    color: var(--secondary);
+    background: var(--primary);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.logo-header img{
+    width: 250px;
+}
+.menu-header{
+    display: inline-block;
+}
+.menu-header .item{
+    margin: 5px 10px 5px 10px;
+}
+.body-container{
+    background-image: url(./assets/people.jpg);
+    display: grid;
+    text-align: center;
+    background-size: 100%;
+
+}
+.body-container h1{
+    font-weight: 700;
+}
+.body-container h2{
+    font-weight: 500;
+    display: inline-block;
+    
+}
+.body-container p{
+    padding: 20px;
+}
+.map{
+    width: 100%;
+}
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+footer .subtitle{
+    font-weight: 500;
+}
+footer ul{
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+.img-icon img{
+    display: inline-block;
+    width: 20px;
+    filter: invert(100%);
+}
+.list{
+    display: flex;
+    align-content: flex-end;
+    place-items: center;
+}
+.list-description{
+    margin-left: 15px;
+}
+a{
+    color: var(--secondary);
+    text-decoration: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
